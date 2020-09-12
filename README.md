@@ -1,8 +1,17 @@
 # Proyecto de Maestria en Ingenieria de Software - UTP PORTAL DE OFERTAS
 
 ## UTP PORTAL DE OFERTAS
+Widgets /Widget
+-bezierContainer.dart
+-custosClipper.dart
 
+Pantallas /src :
+-Bienvenido o Welcome
+-Login
+-Registrarse
 
+App /lib :
+-main.dart
 
 ## Screenshots
 
@@ -43,24 +52,21 @@ info: 'display1' is deprecated and shouldn't be used. This is the term used in t
 ESTO NO IMPIDE QUE SE EJECUTE EL PROGRAMA
 
 
-
-INSPECTOR
+FLUTTER INSPECTOR
 Para inspeccionar el codigo
 1. Una ves el programa este ejecutado en la maquina/celular virtual corriendo en caliente
 2. Ejecutamos el Flutter inspector que esta a la derecha de la pantalla en Android studio , alado de Flutter Outline, Flutter Performance. O puedes buscarlo y ejecutarlo desde la barra de manu.
 3. Una ves que el Flutter inspector este abierto seleccionamos la opcion de Enable Select Widget Mode , esto nos permitira ver en la cascada de conjunto de codigo que representa visualmente en la maquina/celular virtual. Igualmente te lo muestra remarcandolo con un Cuadro Azul.
 
-GIT  - Github
+## Control de Versiones GIT  - Github
 1. Para usar el control de versiones Github se accede a VCS > import into version control >  Git Hub (Con esto podemos validar si esta Git esta instalado en la maquina en este caso, no estaba instalado asi que mediante el link  https://git-scm.com/download
-2. Despues de instalarlo debemos cerrar android studio y volverlo a abrir, para que reconosca los cambios
-3. Despues verificar en le parte de Settings > Version Control > Git (Para verificar si reconoce el software git instalado en la maquina)
-4. Despues de tener el codigo listo, se realiza un COMMIT en el cual adjuntamos la nueva version en pre-stage 
+2. Despues de instalarlo debemos cerrar android studio y volverlo a abrir, para que reconosca los cambios.
+3.Verificar en le parte de Settings > Version Control > Git (Para verificar si reconoce el software git instalado en la maquina).
+4. Al tener el codigo listo, se realiza un COMMIT en el cual adjuntamos la nueva version y seleccionamos los archivos que queremos subir. (Esto ejecuta una revision previa del codigo para ver si tiene errores)
+5. Finalmente se realiza un push master, en el cual se le indica la destino final y la cuenta github.
 
-
-
-
-_________________________________________________________________
-Beneficios de Flutter + Dart
+___________________________________________________________
+## Beneficios de Flutter + Dart
 
 
 Many linguists believe that the natural language a person speaks affects how they think. Does the same concept apply to computer languages? Programmers working in different kinds of programming languages often come up with radically different solutions to problems. As a more extreme example, computer scientists eliminated the goto statement to encourage more structured programs (not quite the same as totalitarian leaders in the novel 1984 expunging heretical words from natural language to eliminate thoughtcrimes, but you get the idea).
